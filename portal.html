@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .dashboard-container {
+  display: flex;
+}
+
+.menu-container {
+  width: 250px;
+  height: 100vh;
+  background-color: #f2f2f2;
+  position: fixed;
+  left: 0;
+  top: 0;
+  overflow-y: auto;
+}
+
+.menu-container ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-container li {
+  margin: 0;
+  padding: 10px 0;
+}
+
+.menu-container li a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  padding :10px ;
+}
+
+.menu-container li a:hover {
+  background-color: #ccc;
+}
+
+.content-container {
+  flex: 1;
+  margin-left: 250px;
+  position: relative
+}
+.content-container a{
+  position: absolute;
+  right:50%;
+  font-weight:800;
+  background:red;
+  padding:10px;
+  color:#fff;
+  text-decoration:none;
+  border-radius:25px;
+  box-shadow:0px 5px 2px #64646487;
+  transition-duration: .3s;
+}
+.content-container a:hover{
+  box-shadow:0px 5px 2px #fff;
+  margin-top: 5px;
+  background: #c50303;
+}       
+    </style>
+</head>
+<body>
+    <div class="dashboard-container">
+        <div class="menu-container">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">User</a></li>
+            <li><a href="video.html">Video</a></li>
+            <li><a href="doc.pdf">Documents</a></li>
+            <li><a href="#">Pictures</a></li>
+          </ul>
+        </div>
+        <div class="content-container">
+          <h1>Users Portal</h1>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          
+          <a href="https://www.youtube.com/channel/UC-dw-VD0gHOUnAOquT1k3tQ" target="_blank">Visit for more details</a>
+          
+        </div>
+      </div>
+      
+    
+</body>
+</html>
